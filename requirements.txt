@@ -1,8 +1,7 @@
-﻿h5py 
+h5py 
 keras
 Keras-Preprocessing
 numpy
-opencv-contrib-python
 opencv-python
 pandas 
 pandocfilters 
@@ -12,11 +11,6 @@ scikit-learn
 scipy
 streamlit
 streamlit-cropper
-tensorboard
-tensorboard-data-server
-tensorboard-plugin-wit
-tensorflow-estimator
-tensorflow-gpu
-tensorflow-io-gcs-filesystem
+tensorflow
 wget
 
