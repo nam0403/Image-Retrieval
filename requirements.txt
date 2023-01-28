@@ -11,4 +11,5 @@ scikit-learn
 scipy
 streamlit
 streamlit-cropper
-tensorflow
+tensorflow==2.11.0
+# protobuf<3.20,>=3.9.2
