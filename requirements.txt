@@ -9,6 +9,6 @@ requests
 scikit-image 
 scikit-learn 
 scipy
-streamlit
+streamlit==1.17.0
 streamlit-cropper
 wheel
