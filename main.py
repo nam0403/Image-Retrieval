@@ -1,4 +1,3 @@
-import h5py
 from keras.applications.vgg16 import VGG16
 import keras.utils as image
 from keras.applications.vgg16 import preprocess_input
