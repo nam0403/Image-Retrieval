@@ -9,7 +9,7 @@ requests
 scikit-image 
 scikit-learn 
 scipy
-streamlit==1.17.0
+streamlit==1.13.0
 streamlit-cropper
 wheel
 protobuf<3.20,>=3.9.2
