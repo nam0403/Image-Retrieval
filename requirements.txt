@@ -13,3 +13,4 @@ streamlit
 streamlit-cropper
 protobuf==3.19.6
 tensorflow
+wheel
