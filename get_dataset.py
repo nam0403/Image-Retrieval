@@ -1,4 +1,3 @@
-import wget
 import os
 import zipfile
 import tarfile
