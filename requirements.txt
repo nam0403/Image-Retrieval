@@ -1,0 +1,13 @@
+h5py 
+keras
+Keras-Preprocessing
+numpy
+opencv-python
+pandas 
+requests
+scikit-image 
+scikit-learn 
+scipy
+streamlit
+streamlit-cropper
+tensorflow
