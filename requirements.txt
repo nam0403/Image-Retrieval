@@ -19,4 +19,4 @@ tensorflow-estimator
 tensorflow-gpu
 tensorflow-io-gcs-filesystem
 wget
-tarfile
+
