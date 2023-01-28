@@ -1,27 +1,22 @@
-from keras.applications.vgg16 import VGG16
-import keras.utils as image
-from keras.applications.vgg16 import preprocess_input
-import numpy as np
-from annoy import AnnoyIndex
 import os
 from streamlit_cropper import st_cropper
 from PIL import Image
 import streamlit as st
-from sklearn.neighbors import KDTree
 import argparse
 import time
 
 start_time = time.time()
 if not os.path.exists('dataset'):
     os.makedirs('dataset')
-if st.button('Get dataset'):
-    parser = argparse.ArgumentParser(description='Process some dataset.')
-    parser.add_argument('--dataset_folder', type=str, default='dataset', help='Path to dataset folder')
-    args = parser.parse_args()
-    os.system(f'python get_dataset.py --dataset_folder {args.dataset_folder}')
-    end_time = time.time()
-    st.success("Dataset download complete!")
-    st.write(f'Time taken to download dataset: {end_time - start_time} seconds')
+with st.empty():
+    if st.button('Get dataset'):
+        parser = argparse.ArgumentParser(description='Process some dataset.')
+        parser.add_argument('--dataset_folder', type=str, default='dataset', help='Path to dataset folder')
+        args = parser.parse_args()
+        os.system(f'python get_dataset.py --dataset_folder {args.dataset_folder}')
+        end_time = time.time()
+        st.success("Dataset download complete!")
+        st.write(f'Time taken to download dataset: {end_time - start_time} seconds')
         
 # img = cv.imread('query.jpeg')
 # image_query = load_image_query(img)
@@ -45,3 +40,4 @@ if uploaded_file is not None:
             img = Image.open(img_path)
             st.image(img, channels="BGR")
             # st.write(score)
+
