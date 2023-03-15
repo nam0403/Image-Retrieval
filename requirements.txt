@@ -1,4 +1,4 @@
-pip==22.3.1
+pip
 h5py 
 keras
 Keras-Preprocessing
@@ -9,7 +9,7 @@ requests
 scikit-image 
 scikit-learn 
 scipy
-streamlit==1.13.0
+streamlit
 streamlit-cropper
 wheel
 protobuf<3.20,>=3.9.2
